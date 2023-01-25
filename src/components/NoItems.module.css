@@ -1,0 +1,19 @@
+.noItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1.5rem;
+  color: var(--gray-300);
+}
+
+.noItems p {
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.noItems p:first-of-type {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}

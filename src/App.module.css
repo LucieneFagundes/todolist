@@ -1,0 +1,85 @@
+.wrapper {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.boxAddTask {
+  margin-top: calc(0px - 1.6875rem);
+  display: flex;
+  gap: 0.5rem;
+  height: 3.375rem;
+}
+
+.boxAddTask input {
+  width: 100%;
+  border-radius: 8px;
+  border: 0;
+  padding: 1rem;
+  border: 1px solid var(--gray-700);
+  background-color: var(--gray-500);
+  color: var(--gray-300);
+}
+.boxAddTask button {
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--gray-700);
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.boxAddTask input:focus {
+  color: var(--gray-100);
+}
+
+.boxAddTask button:hover {
+  background: var(--blue);
+}
+
+.boxTasks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.taskStatus {
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskStatus p {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--purple);
+}
+.taskStatus p:first-child {
+  color: var(--blue);
+}
+
+.taskStatus span {
+  padding:  .125rem .5rem;
+  margin-left: 0.5rem;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.taskList {
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-400);
+  min-height: 31.25rem;
+}
