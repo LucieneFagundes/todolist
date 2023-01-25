@@ -28,7 +28,7 @@ export function TaskItems({ task, onDeleteTask, onDoneTask }: TasksProps) {
         <input
           type="checkbox"
           className={styles.checkbox}
-          onChange={handleCheckboxChange}
+          onClick={handleCheckboxChange}
         />
       </div>
       <span className={task.done == true ? styles.taskChecked : styles.taskUnchecked}>

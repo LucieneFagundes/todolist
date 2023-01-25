@@ -43,13 +43,15 @@ function App() {
     countTaskDone = tasks.filter((task) => task.done === true).length;
     setTasksCompleted(countTaskDone);
   }
-
+  
   function deleteTask(taskToDelete: string) {
     const taskWithoutDeletedOne = tasks.filter((task) => {
       return task.id != taskToDelete;
     });
-
     setTasks(taskWithoutDeletedOne);
+
+    countTaskDone = taskWithoutDeletedOne.filter((task) => task.done === true).length;
+    setTasksCompleted(countTaskDone);
   }
 
   return (
