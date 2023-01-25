@@ -8,4 +8,8 @@ Funções disponíveis no projeto:
 - Excluir tarefa
 - Marcar/desmarcar conclusão de tarefa
 
-Este projeto está sujeito a mudanças. 
+Este projeto está sujeito a mudanças.
+
+Próximos desafios: 
++ Editar tarefa
++ Escolha de tema
